@@ -12,5 +12,8 @@ public class Main {
 
         calculator.Subtract(50, 15);
         System.out.println(calculator.getLastResult());
+
+        calculator.Multiply(10, 30);
+        System.out.println(calculator.getLastResult());
     }
 }
